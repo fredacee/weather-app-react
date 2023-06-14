@@ -24,16 +24,21 @@
   line-height: 19px;
   list-style: none;
 }
-
-.weather .temperature {
-  font-weight: bold;
-  color: rgb(33, 33, 33);
-  font-size: 64px;
-  line-height: 64px;
-  font-weight: 400px;
+.weather img {
+  height: 64px;
+  margin-right: 10px;
+  width: 64px;
 }
 
-.weather .units {
+.temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 54px;
+  line-height: 64px;
+  font-weight: 400;
+}
+
+.units {
   color: rgb(33, 33, 33);
   font-size: 16px;
   font-weight: 400px;
